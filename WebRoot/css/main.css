@@ -1,0 +1,30 @@
+body{
+ height:1000px;
+ 	
+}
+#fixednav_wrapper{
+	
+}
+#body_wrapper{
+	min-height:100%;
+	margin-top:100px;
+	width:90%;
+	margin:0 auto;
+}
+#footer_outer{
+	
+	width:100%;
+	float:left;
+
+}
+#sidebar_wrapper{
+	float:left;
+	margin-top:10%;
+}
+.clear{
+	clear:both;
+}
+#nav_wrapper{
+	margin-top:10%;
+	float:left;
+}

@@ -1,0 +1,78 @@
+li{
+list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.bookSectionOuter{
+	
+	width:80%;
+	margin: 0 auto;
+	border:1px solid #373737;
+	float:left;
+	clear:both;
+	margin-top:10px;
+	
+	
+}
+.bookWrapper{
+	
+	padding:10px;
+	width:auto;
+	height:auto;
+	display:inline-block;
+	margin:20px;
+	border:1px solid #78BA00;
+	padding:10 20px;
+	margin-top:10px;
+	
+}
+.name{
+	text-align:center;
+	display:block;
+	color:white;
+	
+	font-size:20px;
+	background-color:#17AFA2;
+	padding:2 2px;
+}
+.price{
+
+	text-align:center;
+	display:block;
+	color:#E64415;
+	font-size:20px;
+	
+	width:50%;
+	
+	padding:2 1px;
+}
+.addToCart{
+	display:block;
+}
+.view{
+display:inline-block;}
+
+.book_heading{
+	padding-left:20px;
+	line-height:2em;
+	color:white;
+	text-align:left;
+	font-size:22px;
+	background-color:#373737;
+}
+.addToCart{
+	width:100%;
+	margin:0;
+	padding:0;
+	display:block;
+	border-radius:0;
+	color:white;
+	background-color:#E02C6E;
+	padding:0 4px;
+	text-transform:uppercase;
+	box-shadow:0;
+	text-shadow:none;
+	border:none;
+	line-height:2em;
+}

@@ -1,0 +1,4 @@
+to store users=login_users
+to storee bokks=bookDB
+//sequences//
+product_id_gen // to increment product id

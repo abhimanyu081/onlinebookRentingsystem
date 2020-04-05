@@ -1,0 +1,68 @@
+#nav_outer{
+margin:0;
+padding:0;
+}
+
+#navMain{
+list-style:none;
+font-family:tahoma;
+font-size:14px;
+
+float:left;
+width: 900px;
+margin:0;
+padding:0;
+
+background-color:rgb(0,175,240);
+
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+#navMain > li{
+float:left;
+position:relative;
+border-right:1px solid #00AFF0;
+}
+#navMain > li > a{
+color:#f4e4e6;
+float:left;
+text-decoration:none;
+padding:14px 24px;
+
+border-right:1px solid #2168AF;
+}
+#navMain > li > a:hover{
+	background: rgba(99, 20, 32, 0.25);
+}
+#navMain .currentPage a{
+	background: rgb(99, 20, 32);
+	/* RGBa with 0.6 opacity */
+	background: rgba(99, 20, 32, 0.25);
+}
+#navMain ul {
+display:none;
+position:absolute;
+list-style:none;
+left:0;
+padding:0;
+margin:0;
+border-top:1px #a81b2f solid;
+background:#e8edee;
+}
+#navMain ul li a{
+color:#5d6364;
+text-decoration:none;
+display:block;
+padding:10px 12px;
+border-bottom:1px solid #d3d9da;
+border-left:1px solid #2168AF;
+border-right:1px solid #2168AF;
+font-size:13px;
+}
+#navMain li:hover ul {
+display:block;
+top:44px;
+min-width:200px;
+}
+#navMain ul li a:hover{
+background-color:#00CC66;}
